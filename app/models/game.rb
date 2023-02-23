@@ -1,3 +1,4 @@
 class Game < ActiveRecord::Base
-  
-end
+    has_many :reviews
+
+  end
